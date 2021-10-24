@@ -1,0 +1,43 @@
+
+# Gradle
+.gradle/
+build/
+
+# Eclipse
+.project
+.classpath
+.settings/
+bin/
+
+# IntelliJ
+.idea
+*.ipr
+*.iml
+*.iws
+
+# NetBeans
+nb-configuration.xml
+
+# Visual Studio Code
+.vscode
+.factorypath
+
+# OSX
+.DS_Store
+
+# Vim
+*.swp
+*.swo
+.gradle/*
+.idea
+
+domain/core/build
+domain/business/usecase/build
+domain/model/build
+domain/properties/build
+domain/utilities/build
+infrastructure/application/runner/build
+infrastructure/data/sql/oracle/build
+infrastructure/data/nosql/mongo/build
+infrastructure/data/indexed/elastic-search/build
+infrastructure/application/entrypoint/reactive-function/build
